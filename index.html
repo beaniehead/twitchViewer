@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Twitch Viewer</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <body>
+    <div class="wrapper">
+        <div class="control">
+            <div class="header">
+                <h1>Tw<i class="fa fa-user"></i>tch <span class="subtitle">streamers</span></h1>
+            </div>
+            <div class="subcontrol">
+                <div class="ig1"><button class="onlinebtn status hoverd1">Online</button>
+                    <span class="test1 test hoverd1"><button class="color green hoverd1"></button></span>
+                </div>
+                <div class="ig2"><button class="offlinebtn status hoverd2">Offline</button>
+                    <span class="test2 test hoverd2"><button class="color red hoverd2"></button></span>
+                </div>
+                <div class="ig3">
+                    <button class="allbtn status hoverd3" id="checked">All</button>
+                    <span class="test3 test hoverd3" id="checked"><button class="color blue hoverd3" id="checked"></button></span>
+                </div>
+                <div class="ig4">
+                    <button class="searchbtn status hoverd4">Search</button>
+                    <span class="test4 test hoverd4"><button class="color orange hoverd4"></button></span>
+                </div>
+            </div>
+        </div>
+        <div class="twitchContainer">
+            <div class="twitch0 twitch">
+                <div class="twitchLogo0 twitchLogo"></div>
+                <div class="twitchMain0 main">
+                    <div class="twitchTitle0 title"></div>
+                    <div class="twitchInfo0 info"></div>
+                    <hr class="hr0" />
+                    <div class="twitchSub0 sub"></div>
+                </div>
+            </div>
+            <div class="twitch1 twitch">
+                <div class="twitchLogo1 twitchLogo"></div>
+                <div class="twitchMain1 main">
+                    <div class="twitchTitle1 title"></div>
+                    <div class="twitchInfo1 info"></div>
+                    <hr class="hr1" />
+                    <div class="twitchSub1 sub"></div>
+                </div>
+            </div>
+            <div class="twitch2 twitch">
+                <div class="twitchLogo2 twitchLogo"></div>
+                <div class="twitchMain2 main">
+                    <div class="twitchTitle2 title"></div>
+                    <div class="twitchInfo2 info"></div>
+                    <hr class="hr2" />
+                    <div class="twitchSub2 sub"></div>
+                </div>
+            </div>
+            <div class="twitch3 twitch">
+                <div class="twitchLogo3 twitchLogo"></div>
+                <div class="twitchMain3 main">
+                    <div class="twitchTitle3 title"></div>
+                    <div class="twitchInfo3 info"></div>
+                    <hr class="hr3" />
+                    <div class="twitchSub3 sub"></div>
+                </div>
+            </div>
+            <div class="twitch4 twitch">
+                <div class="twitchLogo4 twitchLogo"></div>
+                <div class="twitchMain4 main">
+                    <div class="twitchTitle4 title"></div>
+                    <div class="twitchInfo4 info"></div>
+                    <hr class="hr4" />
+                    <div class="twitchSub4 sub"></div>
+                </div>
+            </div>
+            <div class="twitch5 twitch">
+                <div class="twitchLogo5 twitchLogo"></div>
+                <div class="twitchMain5 main">
+                    <div class="twitchTitle5 title"></div>
+                    <div class="twitchInfo5 info"></div>
+                    <hr class="hr5" />
+                    <div class="twitchSub5 sub"></div>
+                </div>
+            </div>
+            <div class="noneOnline twitch">
+                <div class="twitchLogo"><i class="fa fa-bed allOffIcon"></i></div>
+                <div class="main">
+                    <div class="title">
+                        <h3>No users currently online</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="noneOffline twitch">
+                <div class="twitchLogo"><i class="fa fa-play-circle-o allOnIcon"></i></div>
+                <div class="main">
+                    <div class="title">
+                        <h3>All users online</h3>(or they don't exist)</div>
+                </div>
+            </div>
+            <div class="search twitch">
+
+                <div class="main">
+                    <div class="title">
+                        <div class="input-group resultsGroup"><input type="search" class="form-control twitchsearch" placeholder="Search by username..."></input>
+                            <button type="submit" class="btn btn-primary searchBtn">Go</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="searchResult twitch">
+                <div class="twitchLogoSearch twitchLogo"></div>
+                <div class="twitchMainSearch main">
+                    <div class="twitchTitleSearch title"></div>
+                    <div class="twitchInfoSearch info"></div>
+                    <hr class="hrSearch" />
+                    <div class="twitchSubSearch sub"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,462 @@
+.wrapper {
+  background-color: #347;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+hr {
+  background-color: #ddd;
+  width: 450px;
+  margin: 10px 5px 5px 5px;
+}
+
+.twitchContainer {
+  widht: 650px;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  padding: 0 10px 10px 10px;
+}
+
+.offline a {
+  color: #ddd;
+}
+
+.x404 {
+  background-color: #222;
+}
+
+.x404 a {
+  color: #ddd
+}
+
+.x404 .main {
+  color: #ccc;
+}
+
+.online a {
+  color: #444;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  width: 130px;
+  flex-grow: 1;
+  padding: 0 20px 20px 20px;
+  color: #cf4;
+}
+
+.subtitle {
+  font-size: .5em;
+  margin-bottom: 11px;
+  ;
+  align-self: flex-end;
+}
+
+.control {
+  display: flex;
+  flex-flow: row wrap;
+  width: 650px;
+  align-self: center;
+  border: 2px solid #ddd;
+  background-color: #333;
+  align-items: flex-end;
+  margin: 20px 0 0 0;
+}
+
+.subcontrol {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-end;
+}
+
+.status {
+  font-size: 13px;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  border: 0;
+  background-color: #eee;
+  width: 0;
+  height: 25px;
+}
+
+.status:focus,
+.status:active,
+.status:hover {
+  outline: none;
+}
+
+.ig1 {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  width: 90px;
+  transition: width 0.5ss;
+  margin: 5px 0 2px 0;
+}
+
+.ig2 {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  width: 90px;
+  transition: width 0.5ss;
+  margin: 3px 0 2px 0;
+}
+
+.ig3 {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  width: 90px;
+  transition: width 0.5s;
+  margin: 3px 0 2px 0;
+}
+
+.ig4 {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  width: 90px;
+  transition: width 0.5ss;
+  margin: 3px 0 5px 0;
+}
+
+.onlinebtn {
+  cursor: pointer;
+  transition: width 0.7s linear;
+  overflow: hidden;
+}
+
+.onlinebtn:hover,
+.onlinebtn:focus {
+  box-shadow: none;
+}
+
+.offlinebtn {
+  cursor: pointer;
+  transition: width 0.7s linear;
+  overflow: hidden;
+}
+
+.offlinebtn:hover,
+.offlinebtn:focus {
+  box-shadow: none;
+}
+
+.searchbtn {
+  cursor: pointer;
+  transition: width 0.7s linear;
+  overflow: hidden;
+}
+
+.searchbtn:hover,
+.onlinebtn:focus {
+  box-shadow: none;
+}
+
+.color {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: none;
+  margin: 5px;
+  vertical-align: middle;
+}
+
+.color:focus,
+.color:hover,
+.color:active {
+  box-shadow: none;
+  outline: 0;
+}
+
+.test {
+  cursor: pointer;
+  background-color: #eee;
+  height: 25px;
+  ;
+  border-radius: 25% 0% 0% 25%;
+}
+
+.green {
+  cursor: pointer;
+  background-color: #699428;
+}
+
+.red {
+  cursor: pointer;
+  background-color: #FF384F;
+}
+
+.fa-user {
+  font-size: 0.8em;
+}
+
+.blue {
+  cursor: pointer;
+  background-color: #2E91B3;
+}
+
+.orange {
+  cursor: pointer;
+  background-color: orange;
+}
+
+.allbtn {
+  cursor: pointer;
+  transition: width 0.7s linear;
+  overflow: hidden;
+  width: 70px;
+}
+
+.allbtn:hover,
+.allbtn:focus {
+  box-shadow: none;
+}
+
+.twitch {
+  border-width: 2px 2px 0 2px;
+  border-color: #ccc;
+  border-style: solid;
+  display: flex;
+  padding: 5px 8px 2px 0;
+  margin: 0 0 0 0;
+  width: 650px;
+}
+
+@media screen and (max-width: 700px) {
+  .twitch {
+    width: 400px;
+  }
+  .control {
+    width: 400px;
+  }
+  hr {
+    background-color: #ddd;
+    width: 300px;
+    margin: 10px 5px 5px 5px;
+  }
+}
+
+.offline {
+  background-color: gray;
+}
+
+.online {
+  background-color: #eee;
+}
+
+.twitch5 {
+  border-bottom: 2px white solid;
+}
+
+.title {
+  text-align: center;
+}
+
+.title h2 {
+  margin: 0 20px 5px 0;
+  font-size: 1em;
+}
+
+.twitchLogo {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo {
+  border-radius: 40%;
+  width: 60px;
+  border: 2px white solid;
+  margin: 3px;
+}
+
+.logoS {
+  border-radius: 40%;
+  width: 60px;
+  border: 2px #555 solid;
+  margin: 3px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 85%;
+}
+
+.online .main {
+  color: #444;
+}
+
+.offline .main {
+  color: #ccc;
+}
+
+.info {
+  max-width: 100%;
+  text-align: center;
+  line-height: 1.1;
+  font-size: 14px;
+}
+
+.info p {
+  margin: 0;
+}
+
+.sub {
+  width: 100%;
+  font-size: 12px;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.offline {
+  transition: display 1s;
+}
+
+.online {
+  transition: display 1s;
+}
+
+.fa-stack-1x {
+  color: white;
+  font-size: 1.2em;
+  z-index: 0;
+  top: 5px;
+  margin-left: 5px;
+}
+
+.ban1 {
+  color: red;
+  margin: 0 0 8px 3px;
+  z-index: 1;
+  font-size: 2.2em;
+  -webkit-text-stroke: 2px #222;
+}
+
+.ban2 {
+  color: : #333333;
+  margin: 0 0 8px 3px;
+  z-index: 1;
+  font-size: 2.2em;
+  -webkit-text-stroke: 2px #CCFF44;
+}
+
+.ban3 {
+  color: #333333;
+}
+
+.noAccountSpan {
+  margin-bottom: 8px;
+}
+
+.noneOnline {
+  z-index: -1;
+  border-bottom: 2px solid #ddd;
+  background-color: royalblue;
+  height: 80px;
+}
+
+.noneOnline .main {
+  padding-top: 15px;
+  padding-right: 30px;
+  color: #bbb;
+}
+
+.noneOffline {
+  z-index: -1;
+  border-bottom: 2px solid #ddd;
+  background-color: hotpink;
+}
+
+.noneOffline .main {
+  padding-top: 15px;
+  padding-right: 30px;
+  color: #eee;
+}
+
+.allOffIcon {
+  color: #ddd;
+  font-size: 3em;
+  padding-left: 50px;
+}
+
+.allOnIcon {
+  color: #ddd;
+  font-size: 4em;
+  padding-left: 50px;
+}
+
+.search {
+  z-index: -1;
+  border-bottom: 2px solid #ddd;
+  background-color: #333333;
+  height: 80px;
+}
+
+.search .main {
+  padding-top: 15px;
+  width: 100%;
+  color: #eee;
+}
+
+.searchBtn {
+  background-color: #ddd;
+  color: #555;
+  box-shadow: none;
+  outline: 0;
+  border-width: 1px 1px 1px 0;
+  border-style: solid;
+  border-color: #666;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.searchBtn:focus,
+.searchBtn:hover,
+.searchBtn:active {
+  box-shadow: none;
+  background-color: #8ea54f;
+  color: #444;
+  outline: 0;
+}
+
+.searchResult {
+  z-index: -1;
+  border-bottom: 2px solid #ddd;
+  background-color: #8ea54f;
+}
+
+.searchResult .main {
+  color: #333333;
+}
+
+.searchResult .noLogo,
+.searchResult a {
+  color: #333333;
+}
+
+.noLogo {
+  color: #ddd;
+  font-size: 4em;
+  padding-left: 5px;
+}
+
+.hrShort {
+  background-color: #333333;
+  width: 200px;
+  margin: 10px 5px 5px 5px;
+}
